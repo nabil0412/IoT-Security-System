@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/mainBodyLeftButtons/feather">
+        <file>feather/maximize-2.svg</file>
+        <file>feather/log-out.svg</file>
+        <file>feather/menu.svg</file>
+        <file>feather/minus.svg</file>
+        <file>feather/x.svg</file>
+        <file>feather/home.svg</file>
+        <file>feather/PngItem_3115575.png</file>
+        <file>feather/lock.svg</file>
+        <file>feather/key.svg</file>
+        <file>feather/at-sign.svg</file>
+    </qresource>
+</RCC>

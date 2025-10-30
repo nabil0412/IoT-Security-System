@@ -1,0 +1,31 @@
+# Exclude video files
+*.mkv
+*.mp4
+*.avi
+*.mov
+
+# Exclude PDF files
+*.pdf
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# PyQt files
+*.ui~
+
+# Recordings folder
+recordings/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
