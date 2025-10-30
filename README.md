@@ -19,7 +19,7 @@ A comprehensive IoT-based security system featuring remote door control, motion 
 
 This IoT Security System provides a complete home security solution with remote monitoring and control capabilities. The system integrates hardware components (ESP32, PIR sensor, servo motor, buzzer) with a user-friendly desktop application for real-time surveillance and door control.
 
-## ✨ Features
+##  Features
 
 ### Hardware Features
 - **Automated Door Control**: Servo motor-based door mechanism with open/close functionality
@@ -37,7 +37,7 @@ This IoT Security System provides a complete home security solution with remote 
 - **Intruder Detection Alert**: Automatic notification when motion is detected
 - **Modern UI**: Dark-themed, responsive PyQt5 interface
 
-## 🏗️ System Architecture
+## System Architecture
 
 The system consists of three main layers:
 
@@ -77,7 +77,7 @@ The system consists of three main layers:
 - **Servo Motor**: VCC → 5V, GND → GND, Signal → GPIO 27
 - **Buzzer**: VCC → 5V, GND → GND, Signal → GPIO 26
 
-## 💻 Software Components
+## Software Components
 
 ### Arduino Code (`Control_on_WiFi.ino`)
 - ESP32 firmware written in C++
@@ -99,7 +99,7 @@ The system consists of three main layers:
 - **Blynk API**: IoT device communication
 - **Qt Designer**: UI design tool
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.7 or higher
@@ -147,7 +147,7 @@ pip install requests
    - Add a Virtual Pin V26 (Switch widget)
    - Update the auth token in both Arduino and Python code
 
-## 🚀 Usage
+## Usage
 
 ### Running the Application
 
@@ -180,7 +180,7 @@ When motion is detected:
 3. Door automatically closes (if open)
 4. GUI displays "Intruder Detected - Door Closed" alert
 
-## ⚙️ Configuration
+## Configuration
 
 ### Blynk Configuration
 Update the following in both `Control_on_WiFi.ino` and `bridge1.py`:
@@ -204,7 +204,7 @@ self.LoginData = {
 }
 ```
 
-## 🔬 Technical Details
+## Technical Details
 
 ### Communication Protocol
 - **Blynk Virtual Pin V26**: Door control (0 = closed, 1 = open)
@@ -222,7 +222,7 @@ self.LoginData = {
 - **90°**: Open position (servo angle 90)
 - **Transition Time**: 500ms
 
-## 🎥 Demo Videos
+## Demo Videos
 
 The repository includes demonstration videos showing:
 - **Login Process**: `Log In.mkv`
@@ -235,7 +235,7 @@ The repository includes demonstration videos showing:
 
 Detailed project report available in the PDF documentation (not included in repository).
 
-## 🛡️ Security Considerations
+## Security Considerations
 
 - Change default login credentials before deployment
 - Use strong WiFi passwords
@@ -243,7 +243,7 @@ Detailed project report available in the PDF documentation (not included in repo
 - Regularly update firmware and software
 - Ensure camera feed is on secure network
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### ESP32 Won't Connect to WiFi
 - Verify SSID and password
@@ -266,11 +266,15 @@ Detailed project report available in the PDF documentation (not included in repo
 - Check for Qt compatibility issues
 - Review console for error messages
 
-## 👥 Contributors
+##  Contributors
 
 This project was developed as part of the Advanced Networks course (4302).
+Abdelrahman Mahmoud
+Muhammed Sherief
+Laila Kariem
+Mohamed Elsayed
 
-## 📜 License
+##  License
 
 This project is for educational purposes. Feel free to modify and use for your own security system implementations.
 
@@ -280,7 +284,7 @@ This project is for educational purposes. Feel free to modify and use for your o
 - [ESP32 Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/)
 - [PyQt5 Documentation](https://www.riverbankcomputing.com/static/Docs/PyQt5/)
 
-## 📞 Support
+##  Support
 
 For issues and questions, please open an issue on the GitHub repository.
 
